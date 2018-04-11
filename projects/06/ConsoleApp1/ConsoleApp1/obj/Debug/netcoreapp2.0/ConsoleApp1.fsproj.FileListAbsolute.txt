@@ -1,0 +1,8 @@
+C:\Users\j\Desktop\src\n2t_windows\projects\06\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.deps.json
+C:\Users\j\Desktop\src\n2t_windows\projects\06\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.runtimeconfig.json
+C:\Users\j\Desktop\src\n2t_windows\projects\06\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\j\Desktop\src\n2t_windows\projects\06\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.dll
+C:\Users\j\Desktop\src\n2t_windows\projects\06\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.pdb
+C:\Users\j\Desktop\src\n2t_windows\projects\06\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.fsprojResolveAssemblyReference.cache
+C:\Users\j\Desktop\src\n2t_windows\projects\06\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.dll
+C:\Users\j\Desktop\src\n2t_windows\projects\06\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.pdb
