@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\j\\.nuget\\packages\\": {},
+    "C:\\Users\\johnp\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\j\\Desktop\\src\\n2t_windows\\projects\\06\\Assembler\\Assembler\\Assembler.csproj",
+      "projectUniqueName": "C:\\Users\\johnp\\source\\repos\\n2t_windows\\projects\\06\\Assembler\\Assembler\\Assembler.csproj",
       "projectName": "Assembler",
-      "projectPath": "C:\\Users\\j\\Desktop\\src\\n2t_windows\\projects\\06\\Assembler\\Assembler\\Assembler.csproj",
-      "packagesPath": "C:\\Users\\j\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\j\\Desktop\\src\\n2t_windows\\projects\\06\\Assembler\\Assembler\\obj\\",
+      "projectPath": "C:\\Users\\johnp\\source\\repos\\n2t_windows\\projects\\06\\Assembler\\Assembler\\Assembler.csproj",
+      "packagesPath": "C:\\Users\\johnp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\johnp\\source\\repos\\n2t_windows\\projects\\06\\Assembler\\Assembler\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\j\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\johnp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

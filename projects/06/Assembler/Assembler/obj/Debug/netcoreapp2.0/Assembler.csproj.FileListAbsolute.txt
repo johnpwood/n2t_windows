@@ -1,0 +1,11 @@
+C:\Users\johnp\Source\Repos\n2t_windows\projects\06\Assembler\Assembler\bin\Debug\netcoreapp2.0\Assembler.deps.json
+C:\Users\johnp\Source\Repos\n2t_windows\projects\06\Assembler\Assembler\bin\Debug\netcoreapp2.0\Assembler.runtimeconfig.json
+C:\Users\johnp\Source\Repos\n2t_windows\projects\06\Assembler\Assembler\bin\Debug\netcoreapp2.0\Assembler.runtimeconfig.dev.json
+C:\Users\johnp\Source\Repos\n2t_windows\projects\06\Assembler\Assembler\bin\Debug\netcoreapp2.0\Assembler.dll
+C:\Users\johnp\Source\Repos\n2t_windows\projects\06\Assembler\Assembler\bin\Debug\netcoreapp2.0\Assembler.pdb
+C:\Users\johnp\Source\Repos\n2t_windows\projects\06\Assembler\Assembler\obj\Debug\netcoreapp2.0\Assembler.csprojResolveAssemblyReference.cache
+C:\Users\johnp\Source\Repos\n2t_windows\projects\06\Assembler\Assembler\obj\Debug\netcoreapp2.0\Assembler.csproj.CoreCompileInputs.cache
+C:\Users\johnp\Source\Repos\n2t_windows\projects\06\Assembler\Assembler\obj\Debug\netcoreapp2.0\Assembler.AssemblyInfoInputs.cache
+C:\Users\johnp\Source\Repos\n2t_windows\projects\06\Assembler\Assembler\obj\Debug\netcoreapp2.0\Assembler.AssemblyInfo.cs
+C:\Users\johnp\Source\Repos\n2t_windows\projects\06\Assembler\Assembler\obj\Debug\netcoreapp2.0\Assembler.dll
+C:\Users\johnp\Source\Repos\n2t_windows\projects\06\Assembler\Assembler\obj\Debug\netcoreapp2.0\Assembler.pdb

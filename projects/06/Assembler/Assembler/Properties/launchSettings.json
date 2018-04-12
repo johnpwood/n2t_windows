@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Assembler": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\johnp\\Source\\Repos\\n2t_windows\\projects\\06\\max\\Max.asm"
+    }
+  }
+}

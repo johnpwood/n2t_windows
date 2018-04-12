@@ -1,13 +1,8 @@
 {
   "ExpandedNodes": [
-    "",
     "\\projects",
-    "\\projects\\07",
-    "\\projects\\07\\StackArithmetic",
-    "\\projects\\07\\StackArithmetic\\SimpleAdd",
-    "\\projects\\07\\vm1",
-    "\\projects\\07\\vm1\\vm1"
+    "\\projects\\06",
+    "\\projects\\06\\Assembler"
   ],
-  "SelectedNode": "\\projects\\07\\vm1\\vm1\\writer.cs",
   "PreviewInSolutionExplorer": false
 }
