@@ -26,13 +26,21 @@ namespace Assembler
             _symbols.Add(symbol, i);
         }
 
-        public void AddVariable(string variable)
+        public int AddVariable(string variable)
         {
             _symbols.Add(variable, n++);
+            return n;
         }
 
         public bool Contains(string symbol) => _symbols.ContainsKey(symbol);
 
-        public int GetAddress(string symbol) => _symbols[symbol];
+        public int GetAddress(string symbol)
+        {
+            if (_symbols.ContainsKey(symbol))
+            {
+                return _symbols[symbol];
+            }
+            else { return AddVariable(symbol); }
+        }
     }
 }

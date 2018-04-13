@@ -8,6 +8,10 @@ namespace Assembler
     {
         static void Main(string[] args)
         {
+            if (args.Length != 1)
+            {
+                throw new Exception("Please provide the name of the Hack assembly language file you would like to assemble.");
+            }
             var s = new SymbolTable();
             var p = new Parser(args[0]);
             var c = new Code();
@@ -31,7 +35,10 @@ namespace Assembler
                 {
                     case Command.A_COMMAND:
                         int a = 0;  // address could be a number or symbol:
-                        if (!Int32.TryParse(p.Symbol, out a)) { a = s.GetAddress(p.Symbol); }
+                        if ( ! Int32.TryParse(p.Symbol, out a) )
+                        {
+                            a = s.GetAddress(p.Symbol);
+                        }
                         commands.Add(Convert.ToString(a, 2).PadLeft(16, '0'));
                         break;
                     case Command.C_COMMAND:

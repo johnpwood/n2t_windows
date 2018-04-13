@@ -52,9 +52,9 @@ namespace Assembler
         private void SetHasMoreCommands()
         {
             bool b = false;
-            for(int i = SourceLine+1; i < _asm.Length; i++)
+            for(int i = SourceLine + 1; i < _asm.Length; i++)
             {
-                if(_asm[i] != "" && "@ADM-10".Contains(_asm[i][0]))
+                if(_asm[i] != "" && "@ADM-10!".Contains(_asm[i][0]))
                 {
                     b = true;
                 }
