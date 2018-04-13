@@ -21,7 +21,7 @@ namespace Assembler
         //the current line being parsed will be available at a higher level for more informative error messages:
         public string Source { get; private set; }
 
-        //this will hold symbols of @ or label commands:
+        //this will hold symbols of @ and label commands:
         public string Symbol;
 
         //these will hold the three fields of a c command:
@@ -46,29 +46,27 @@ namespace Assembler
             var r = new Regex("//.*");
             _asm = _asm.Select(l => l = r.Replace(l, "")).ToArray();
             _asm = _asm.Select(l => l.Trim()).ToArray();
-            SourceLine = -1;
-            OutputLine = 0;
-            HasMoreCommands = false;
-            for(int i = 0; i < _asm.Length; i++)
+            Reset();
+        }
+
+        private void SetHasMoreCommands()
+        {
+            bool b = false;
+            for(int i = SourceLine+1; i < _asm.Length; i++)
             {
-                if (_asm[i] != "" && "@ADM-1".Contains(_asm[i][0]))
+                if(_asm[i] != "" && "@ADM-10".Contains(_asm[i][0]))
                 {
-                    HasMoreCommands = true;
+                    b = true;
                 }
             }
+            HasMoreCommands = b;
         }
 
         public void Reset()
         {
             SourceLine = -1;
             OutputLine = 0;
-            for (int i = 0; i < _asm.Length; i++)
-            {
-                if (_asm[i] != "" && "@ADM-1".Contains(_asm[i][0]))
-                {
-                    HasMoreCommands = true;
-                }
-            }
+            SetHasMoreCommands();
         }
 
         public void Advance()
@@ -79,11 +77,7 @@ namespace Assembler
 
             Source = _asm[SourceLine];
 
-            HasMoreCommands = false;
-            for (int i = SourceLine + 1; i < _asm.Length; i++)
-            {
-                if (_asm[i] != "") { HasMoreCommands = true;  }
-            }
+            SetHasMoreCommands();
 
             switch (Source[0])
             {
